@@ -7,15 +7,12 @@
   background-size: cover;
   background-attachment: fixed;
 }
-.navbar .navbar-nav .nav-link {
-  color: #6fa545 !important;
-}
 .title {
   font-family: "Oswald", sans-serif;
   font-family: "Roboto", sans-serif;
   color: rgb(255, 255, 255);
   text-align: center;
-  margin-top: 1em;
+  margin-top: 4em;
   font: Inconsolata, monospace;
   text-shadow: 0 0 6px #6fa545;
   font-weight: 600;
