@@ -1,43 +1,50 @@
 [
-    {
-      "id": 1,
-      "name": "Dine-In or Dine-Out",
-      "image": "../images/DineInDineOut.jpg",
-      "description": "Project where the user can input a type of meal and their zip code and then receive results of recipes or restaurants that serve the meal near them.",
-      "gihub": "https://github.com/denzgrant/SnapesOnAPlane",
-      "url": "https://denzgrant.github.io/SnapesOnAPlane/"
-    },
-    {
-      "id": 2,
-      "name": "Weather Dashboard",
-      "image": "../../images/WeatherDashboard.jpg",     
-      "description": "Weather Dashboard uses API calls to get the current and 5-Day forecast for any location by typing in the citie's name.",
-      "gihub": "https://github.com/denzgrant/Weather-Dashboard",
-      "url": "https://denzgrant.github.io/Weather-Dashboard/"
-    },
-    {
-      "id": 3,
-      "name": "Work Day Scheduler",
-      "image": "../../images/WorkDayScheduler.jpg",
-      "description": "Allows the user to saves tasks and highlight future work hours. Tasks are saved in local storage and moment.js is used to highlight the hour of the day block.",
-      "gihub": "https://github.com/denzgrant/Work-Day-Scheduler",
-      "url": "https://denzgrant.github.io/Work-Day-Scheduler/"
-    },
-    {
-      "id": 4,
-      "name": "Eat-Da-Burger",
-      "image": "../../images/eatdaburger.JPG",
-      "description": "Eat-Da-Burger! is a restaurant app that lets users input the name of burgers they'd like to eat mad with Express and MySQL. This project follows the MVC design.",
-      "gihub": "A Secret Laboratory",
-      "url": "www.bleh.com"
-    },
-    {
-      "id": 5,
-      "name": "DasFlix",
-      "image": "../../images/dasFlix.JPG",
-      "description": "A full-stack application where the user can create watchlists consisting of cards representing movies/tv shows, these cards are rendered to the page from a third party API. Local username and password authentication is used to access the website. The user’s watchlist, password, and username is stored in a database. Feel free to use the test login, username: '1@1'. password: '1'",
-      "gihub": "https://github.com/denzgrant/DasFlix-",
-      "url": "http://www.dasflix.com/"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "name": "Dine-In or Dine-Out",
+    "image": "../images/DineInDineOut.jpg",
+    "description": "Project where the user can input a type of meal and their zip code and then receive results of recipes or restaurants that serve the meal near them.",
+    "gihub": "https://github.com/denzgrant/SnapesOnAPlane",
+    "url": "https://denzgrant.github.io/SnapesOnAPlane/"
+  },
+  {
+    "id": 2,
+    "name": "Weather Dashboard",
+    "image": "../../images/WeatherDashboard.jpg",
+    "description": "Weather Dashboard uses API calls to get the current and 5-Day forecast for any location by typing in the citie's name.",
+    "gihub": "https://github.com/denzgrant/Weather-Dashboard",
+    "url": "https://denzgrant.github.io/Weather-Dashboard/"
+  },
+  {
+    "id": 3,
+    "name": "Work Day Scheduler",
+    "image": "../../images/WorkDayScheduler.jpg",
+    "description": "Allows the user to saves tasks and highlight future work hours. Tasks are saved in local storage and moment.js is used to highlight the hour of the day block.",
+    "gihub": "https://github.com/denzgrant/Work-Day-Scheduler",
+    "url": "https://denzgrant.github.io/Work-Day-Scheduler/"
+  },
+  {
+    "id": 4,
+    "name": "Eat-Da-Burger",
+    "image": "../../images/eatdaburger.JPG",
+    "description": "Eat-Da-Burger! is a restaurant app that lets users input the name of burgers they'd like to eat mad with Express and MySQL. This project follows the MVC design.",
+    "gihub": "A Secret Laboratory",
+    "url": "www.bleh.com"
+  },
+  {
+    "id": 5,
+    "name": "DasFlix",
+    "image": "../../images/dasFlix.JPG",
+    "description": "A full-stack application where the user can create watchlists consisting of cards representing movies/tv shows, these cards are rendered to the page from a third party API. Local username and password authentication is used to access the website. The user’s watchlist, password, and username is stored in a database. Feel free to use the test login, username: '1@1'. password: '1'",
+    "gihub": "https://github.com/denzgrant/DasFlix-",
+    "url": "http://www.dasflix.com/"
+  },
+  {
+    "id": 6,
+    "name": "Workout Tracker",
+    "image": "../../images/dasFlix.JPG",
+    "description": "Workout Tracker application that utilizes Mongoose to allow the user to add new exercises to a new workout plan or add exercises to a previous workout plan. A stats page is rendered based on the multiples exercises created.",
+    "gihub": "https://github.com/denzgrant/Workout-Tracker",
+    "url": "http://lower-goose-19055.herokuapp.com/"
+  }
+]
