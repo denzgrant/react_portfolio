@@ -1,0 +1,16 @@
+#minimalistintro .view {
+  min-height: 100vh !important;
+  height: unset !important;
+}
+.navbar-dark {
+  margin-top: 0 !important;
+}
+.col-md-12 {
+  margin-bottom: 1em;
+}
+a {
+  color: #fff;
+}
+a:hover {
+  color: rgb(97, 235, 17);
+}

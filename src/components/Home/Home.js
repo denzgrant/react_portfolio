@@ -1,13 +1,6 @@
-import React from 'react';
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import {
-    MDBNavbar,
-    MDBNavbarBrand,
-    MDBNavbarNav,
-    MDBNavItem,
-    MDBNavLink,
-    MDBNavbarToggler,
-    MDBCollapse,
     MDBMask,
     MDBRow,
     MDBCol,
@@ -16,11 +9,11 @@ import {
     MDBContainer
 } from 'mdbreact';
 import './Home.css';
-import Wallpaper from '../../redwoods.jpg'
+import Wallpaper from '../../images/indonesia.jpg'
 
 
 
-class MinimalisticIntro extends React.Component {
+class Home extends Component {
     state = {
         collapsed: false
     };
@@ -34,17 +27,8 @@ class MinimalisticIntro extends React.Component {
         });
     };
 
-    componentDidMount() {
-        document.querySelector('nav').style.height = '65px';
-    }
-
-    componentWillUnmount() {
-        document.querySelector('nav').style.height = 'auto';
-    }
-
     render() {
         const { collapsed } = this.state;
-        const navStyle = { marginTop: '4rem' };
         const overlay = (
             <div
                 id='sidenav-overlay'
@@ -54,44 +38,9 @@ class MinimalisticIntro extends React.Component {
         );
         return (
             <div id='minimalistintro'>
-                <Router>
-                    <div>
-                        <MDBNavbar
-                            color='primary-color'
-                            style={navStyle}
-                            dark
-                            expand='md'
-                            fixed='top'
-                            scrolling
-                            transparent
-                        >
-                            <MDBContainer>
-                                <MDBNavbarBrand>
-                                    <strong className='white-text'>Denzell Grant</strong>
-                                </MDBNavbarBrand>
-                                <MDBNavbarToggler onClick={this.handleTogglerClick} />
-                                <MDBCollapse isOpen={collapsed} navbar>
-                                    <MDBNavbarNav left>
-                                        <MDBNavItem active>
-                                            <MDBNavLink to='/'>Home</MDBNavLink>
-                                        </MDBNavItem>
-                                        <MDBNavItem>
-                                            <MDBNavLink to='#!'>About Me</MDBNavLink>
-                                        </MDBNavItem>
-                                        <MDBNavItem>
-                                            <MDBNavLink to='/portfolio'>Portfolio</MDBNavLink>
-                                        </MDBNavItem>
-                                    </MDBNavbarNav>
-                                    <MDBNavbarNav right>
-                                        <MDBNavItem>
-                                        </MDBNavItem>
-                                    </MDBNavbarNav>
-                                </MDBCollapse>
-                            </MDBContainer>
-                        </MDBNavbar>
-                        {collapsed && overlay}
-                    </div>
-                </Router>
+                <div>
+                    {collapsed && overlay}
+                </div>
                 <MDBView src={Wallpaper}>
                     <MDBMask className='rgba-black-light' />
                     <MDBContainer
@@ -108,14 +57,14 @@ class MinimalisticIntro extends React.Component {
                                     <strong>Full-Stack Web Developer </strong>
                                 </h5>
                                 <MDBBtn outline color='white'>
-                                    <Router>
-                                        <Link to="/portfolio">portfolio</Link>
-                                    </Router>
+
+                                    <Link to="/portfolio">portfolio</Link>
+
                                 </MDBBtn>
 
                                 <MDBBtn outline color='white'>
-                                    About me
-                </MDBBtn>
+                                    <Link to="/about-me">About Me</Link>
+                                </MDBBtn>
                             </MDBCol>
                         </MDBRow>
                     </MDBContainer>
@@ -125,4 +74,4 @@ class MinimalisticIntro extends React.Component {
     }
 }
 
-export default MinimalisticIntro;
+export default Home;
