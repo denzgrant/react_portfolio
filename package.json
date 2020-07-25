@@ -12,10 +12,12 @@
     "react-scripts": "3.4.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "dev": "react-scripts start",
+    "start": "serve -s build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build",
     "rename": "renamer --find App-clear.js --replace App.js ./src/App-clear.js && renamer --find style.css --replace index.css ./src/style.css ",
     "remove-demo": "rimraf ./src/assets ./src/components ./src/pages ./src/Routes.js ./src/App.js ./src/index.css && npm run rename"
   },
