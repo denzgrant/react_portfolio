@@ -1,7 +1,7 @@
 import React from 'react';
 import { MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBCol, MDBContainer, MDBRow } from 'mdbreact';
 import dineImg from '../../images/DineInDineOut.jpg';
-import weatherImg from '../../images/WeatherDashboard.png';
+// import weatherImg from '../../images/WeatherDashboard.png';
 import workDayImg from '../../images/WorkDayScheduler.png';
 import burgerImg from '../../images/eatdaburger.jpg';
 import dasImg from '../../images/dasFlix.jpg';
@@ -23,7 +23,7 @@ const projects = [
   {
     "id": 2,
     "name": "Weather Dashboard",
-    "image": weatherImg,
+    // "image": weatherImg,
     "description": "Weather Dashboard uses API calls to get the current and 5-Day forecast for any location by typing in the citie's name.",
     "gihub": "https://github.com/denzgrant/Weather-Dashboard",
     "url": "https://denzgrant.github.io/Weather-Dashboard/"
