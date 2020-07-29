@@ -1,6 +1,6 @@
 import React from "react";
 import { MDBRow, MDBCol, MDBCard, MDBCardBody, MDBBtn, MDBIcon } from "mdbreact";
-import me from '../../images/myself.jpg';
+// import me from '/images/myself.jpg';
 import './AboutMe.css';
 
 
@@ -15,7 +15,7 @@ const AboutMe = () => {
                 <MDBRow>
                     <MDBCol lg="5" xl="4">
                         <figure className="figure">
-                            <img src={me} className="figure-img img-fluid z-depth-1"
+                            <img src="/images/myself.jpg" className="figure-img img-fluid z-depth-1"
                                 alt="" style={{ width: "400px" }} />
                         </figure>
                     </MDBCol>

@@ -1,4 +1,5 @@
 {
+  "homepage": "http://denzgrant.github.io/react_portfolio",
   "name": "your-app",
   "version": "0.1.0",
   "private": true,
@@ -15,6 +16,8 @@
     "serve": "^11.3.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "react-scripts start",
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -30,5 +33,9 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "devDependencies": {}
+  "devDependencies": {
+    "customize-cra": "^1.0.0",
+    "gh-pages": "^3.1.0",
+    "react-app-rewired": "^2.1.6"
+  }
 }
