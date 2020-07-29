@@ -45,9 +45,11 @@ build/Release
 
 # Dependency directories
 node_modules/
+/node_modules
 
 # Optional npm cache directory
 .npm
+
 
 # Optional eslint cache
 .eslintcache
