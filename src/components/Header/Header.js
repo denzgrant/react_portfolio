@@ -39,7 +39,7 @@ class Header extends Component {
         const overlay = (
             <div
                 id='sidenav-overlay'
-                style={{ backgroundColor: 'transparent' }}
+                style={{ backgroundcolor: 'transparent' }}
                 onClick={this.handleTogglerClick}
             />
         );
@@ -47,8 +47,7 @@ class Header extends Component {
             <div id='minimalistintro'>
                 <div>
                     <MDBNavbar
-                        backgroundColor='green'
-                        style={navStyle}
+                        style={{ backgroundcolor: 'green', navStyle }}
                         dark
                         expand='md'
                         fixed='top'

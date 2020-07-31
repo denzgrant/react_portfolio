@@ -32,7 +32,7 @@ class Home extends Component {
         const overlay = (
             <div
                 id='sidenav-overlay'
-                style={{ backgroundColor: 'transparent' }}
+                style={{ backgroundcolor: 'transparent' }}
                 onClick={this.handleTogglerClick}
             />
         );
