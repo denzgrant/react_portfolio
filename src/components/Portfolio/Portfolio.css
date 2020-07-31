@@ -1,13 +1,6 @@
-body {
-  background-image: url(keyboard.jpg);
-  width: 100%;
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
 .cards {
+  width: 22rem;
+  height: 31rem;
   margin-top: 7em;
+  border-radius: 25px;
 }

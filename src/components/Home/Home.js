@@ -41,7 +41,7 @@ class Home extends Component {
                     {collapsed && overlay}
                 </div>
                 <MDBView>
-                    <MDBMask className='rgba-black-light' />
+                    <MDBMask />
                     <MDBContainer
                         className='d-flex justify-content-center align-items-center'
                         style={{ height: '100%', width: '100%', paddingTop: '17rem' }}

@@ -9,10 +9,10 @@ const Portfolio = () => {
   return (
     <>
       <MDBContainer >
-        <MDBRow className="cards">
+        <MDBRow >
           {projects.map((proj, index) => (
             <MDBCol key={index} sm="6" md="6">
-              <MDBCard style={{ width: "22rem", marginTop: "4em" }}>
+              <MDBCard className="cards">
                 <MDBCardImage className="img-fluid" src={process.env.PUBLIC_URL + proj.image} />
                 <MDBCardBody>
                   <MDBCardTitle>{proj.name}</MDBCardTitle>
