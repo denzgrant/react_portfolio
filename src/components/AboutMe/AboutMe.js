@@ -15,7 +15,7 @@ const AboutMe = () => {
                 <MDBRow>
                     <MDBCol lg="5" xl="4">
                         <figure className="figure">
-                            <img src='/images/myself.jpg' className="figure-img img-fluid z-depth-1"
+                        <img src={process.env.PUBLIC_URL + "/images/myself.jpg"} className="figure-img img-fluid z-depth-1"
                                 alt="myself" style={{ width: "400px" }} />
                         </figure>
                     </MDBCol>

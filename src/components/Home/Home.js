@@ -9,7 +9,6 @@ import {
     MDBContainer
 } from 'mdbreact';
 import './Home.css';
-// import Wallpaper from '/images/indonesia.jpg'
 
 
 
@@ -41,7 +40,7 @@ class Home extends Component {
                 <div>
                     {collapsed && overlay}
                 </div>
-                <MDBView src={'/images/indonesia.jpg'}>
+                <MDBView>
                     <MDBMask className='rgba-black-light' />
                     <MDBContainer
                         className='d-flex justify-content-center align-items-center'

@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Dine-In or Dine-Out",
-    "image": "images/DineInDineOut.jpg",
+    "image": "/images/DineInDineOut.jpg",
     "description": "Project where the user can input a type of meal and their zip code and then receive results of recipes or restaurants that serve the meal near them.",
     "gihub": "https://github.com/denzgrant/SnapesOnAPlane",
     "url": "https://denzgrant.github.io/SnapesOnAPlane/"
