@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "180c8c0454268274f95bfa4855f87df2",
+    "revision": "075e19b4375fd33ff02ffec8501acbe8",
     "url": "/react_portfolio/index.html"
   },
   {
-    "revision": "ab4cab4e478f81610e58",
+    "revision": "8d9cdaa1dc42918857e2",
     "url": "/react_portfolio/static/css/2.1436f59d.chunk.css"
   },
   {
-    "revision": "6ef16d2a8c87013d8ffe",
-    "url": "/react_portfolio/static/css/main.69d70643.chunk.css"
+    "revision": "7bea9e1880c0bbb9a416",
+    "url": "/react_portfolio/static/css/main.1f0b6ab4.chunk.css"
   },
   {
-    "revision": "ab4cab4e478f81610e58",
-    "url": "/react_portfolio/static/js/2.8903d4d7.chunk.js"
+    "revision": "8d9cdaa1dc42918857e2",
+    "url": "/react_portfolio/static/js/2.e808123b.chunk.js"
   },
   {
     "revision": "d2966845b94a3318bf32eecc7af8015d",
-    "url": "/react_portfolio/static/js/2.8903d4d7.chunk.js.LICENSE.txt"
+    "url": "/react_portfolio/static/js/2.e808123b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6ef16d2a8c87013d8ffe",
-    "url": "/react_portfolio/static/js/main.33810b97.chunk.js"
+    "revision": "7bea9e1880c0bbb9a416",
+    "url": "/react_portfolio/static/js/main.543b505b.chunk.js"
   },
   {
     "revision": "9f6580f74f41a7be4cf2",
@@ -94,5 +94,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ee09ad7553b8ad3d81150d609d5341a0",
     "url": "/react_portfolio/static/media/fa-solid-900.ee09ad75.woff"
+  },
+  {
+    "revision": "eafaac02c98928be919f6aa31c38044e",
+    "url": "/react_portfolio/static/media/indonesia.eafaac02.jpg"
+  },
+  {
+    "revision": "6f7c44cd328894c988c8d4c02f51d043",
+    "url": "/react_portfolio/static/media/keyboard.6f7c44cd.jpg"
   }
 ]);
