@@ -1,6 +1,5 @@
 import React from "react";
 import { MDBRow, MDBCol, MDBCard, MDBCardBody, MDBBtn, MDBIcon } from "mdbreact";
-// import me from '/images/myself.jpg';
 import './AboutMe.css';
 
 
@@ -15,7 +14,7 @@ const AboutMe = () => {
                 <MDBRow>
                     <MDBCol lg="5" xl="4">
                         <figure className="figure">
-                        <img src={process.env.PUBLIC_URL + "/images/myself.jpg"} className="figure-img img-fluid z-depth-1"
+                            <img src={process.env.PUBLIC_URL + "/images/myself.jpg"} className="figure-img img-fluid z-depth-1"
                                 alt="myself" style={{ width: "400px" }} />
                         </figure>
                     </MDBCol>
@@ -35,7 +34,9 @@ const AboutMe = () => {
                             <br></br>
                             <br></br>
                             Always Be learning.
-            </p>
+                            <br></br>
+                            I'm currently looking to join a team. Feel free to check out my <a href="https://docs.google.com/document/d/1nHbvtAf2ocPFz7yP8Sr8DLAQFcXk-KlLh-mxLlfFT8Q/edit?usp=sharing">Resume</a>
+                        </p>
                         <MDBBtn flat
                             color="indigo"
                             href="https://www.linkedin.com/in/denzell-grant-10175574/"
