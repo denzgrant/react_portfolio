@@ -1,6 +1,6 @@
 {
   "homepage": "http://denzgrant.github.io/react_portfolio",
-  "name": "your-app",
+  "name": "react_portfolio",
   "version": "0.1.0",
   "private": true,
   "// If You want to install mdbreact from our GitLab repository, please replace '4.27.0' with gitURL provided here ->": "git+https://oauth2:<YOUR-TOKEN-GOES-HERE>@git.mdbootstrap.com/mdb/react/re-pro.git",
