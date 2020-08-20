@@ -35,7 +35,7 @@ const AboutMe = () => {
                             <br></br>
                             Always Be learning.
                             <br></br>
-                            I'm currently looking to join a team. Feel free to check out my <a href="https://docs.google.com/document/d/1nHbvtAf2ocPFz7yP8Sr8DLAQFcXk-KlLh-mxLlfFT8Q/edit?usp=sharing">Resume</a>
+                            I'm currently looking to join a team. Feel free to check out my <a href="https://docs.google.com/document/d/1nHbvtAf2ocPFz7yP8Sr8DLAQFcXk-KlLh-mxLlfFT8Q/edit?usp=sharing" rel="noopener noreferrer" target="_blank">Resume</a>
                         </p>
                         <MDBBtn flat
                             color="indigo"

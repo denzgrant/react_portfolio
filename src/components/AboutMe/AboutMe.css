@@ -14,10 +14,12 @@
   margin: 0;
 
 }
+#react {
+  color: red;
+}
 h1 {
   text-align: center;
-  margin-top: 2.5em;
-  margin-bottom: 1em;
+  margin-top: 1em;
   letter-spacing: 2px;
   text-shadow: 0 0 6px #6fa545;
 }
