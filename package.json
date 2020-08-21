@@ -1,5 +1,5 @@
 {
-  "homepage": "http://denzgrant.github.io/react_portfolio",
+  "homepage": ".",
   "name": "react_portfolio",
   "version": "0.1.0",
   "private": true,
@@ -10,7 +10,8 @@
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.2.0",
     "react-router-redux": "^5.0.0-alpha.9",
-    "react-scripts": "3.4.0"
+    "react-scripts": "3.4.0",
+    "serve": "^11.3.2"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -32,5 +33,16 @@
     "customize-cra": "^1.0.0",
     "gh-pages": "^3.1.0",
     "react-app-rewired": "^2.1.6"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denzgrant/react_portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denzgrant/react_portfolio/issues"
+  },
+  "description": ""
 }
