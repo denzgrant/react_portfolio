@@ -55,13 +55,13 @@ class Home extends Component {
                                 <h5 className='text-uppercase mb-4 white-text '>
                                     <strong>Full-Stack Web Developer </strong>
                                 </h5>
-                                <MDBBtn outline color='white'>
+                                <MDBBtn class="btn" outline color='white'>
 
                                     <Link to="/portfolio">portfolio</Link>
 
                                 </MDBBtn>
 
-                                <MDBBtn outline color='white'>
+                                <MDBBtn class="btn" outline color='white'>
                                     <Link to="/about-me">About Me</Link>
                                 </MDBBtn>
                             </MDBCol>

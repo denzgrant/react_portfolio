@@ -14,9 +14,6 @@
   margin: 0;
 
 }
-#react {
-  color: red;
-}
 h1 {
   text-align: center;
   margin-top: 1em;
@@ -30,12 +27,13 @@ h2 {
 .about {
   font-weight: 500;
   font-size: 1em;
-  color: var(--font-color);
+  color: white;
+  padding: 1.5em;
   text-shadow: 9 9 9em #0c0c0b;
   text-indent: 10px;
   letter-spacing: 2px;
-  background: rgba(255, 255, 255, 0.486);
-  box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.5);
+  background: rgb(19, 18, 18);
+  box-shadow: 0 0 0 2px rgb(97, 235, 17);
 }
 .tech {
   margin-top: .5em;
@@ -44,9 +42,9 @@ h2 {
   font-weight: 500;
   text-shadow: 0 0 6px #6fa545;
   font-size: 1em;
-  color: var(--font-color);
+  color: white;
   text-indent: 10px;
   letter-spacing: 2px;
-  background: rgba(255, 255, 255, 0.486);
-  box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.5);
+  background: rgb(36, 33, 33);
+  box-shadow: 0 0 0 2px rgb(97, 235, 17);
 }

@@ -22,9 +22,8 @@ const AboutMe = () => {
                         <p className="about">
                             Full-Stack Developer
                             from the University of Arizona bootcamp. Highly
-                            motivated, creative, and enjoys
-                            gratification from completing goals. I have a
-                            background in Psychology and seeking to use my people
+                            motivated, creative, and enjoys completing goals. I have a
+                            background in Psychology and I am seeking to use my people
                             skills to transition into web development.
                             <br></br>
                             <br></br>
@@ -34,6 +33,7 @@ const AboutMe = () => {
                             <br></br>
                             <br></br>
                             Always Be learning.
+                            <br></br>
                             <br></br>
                             I'm currently looking to join a team. Feel free to check out my <a href="https://docs.google.com/document/d/1nHbvtAf2ocPFz7yP8Sr8DLAQFcXk-KlLh-mxLlfFT8Q/edit?usp=sharing" rel="noopener noreferrer" target="_blank">Resume</a>
                         </p>

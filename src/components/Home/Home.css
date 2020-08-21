@@ -8,9 +8,19 @@
 }
 a {
   color: #fff;
+  letter-spacing: 2px;
+  overflow: hidden;
+  transition: 0.2s;
 }
 a:hover {
-  color: rgb(97, 235, 17);
+  color: rgb(76, 134, 42) !important;
+} 
+
+.btn:hover {
+  background: #21f321 !important; 
+  color: black !important;
+  box-shadow: 0 0 10px #21f321, 0 0 40px #21f321, 0 0 80px #21f321; 
+
 }
 body {
   background-image: url(keyboard.jpg);
