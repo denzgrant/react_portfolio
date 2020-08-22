@@ -1,9 +1,18 @@
 .cards {
   width: 22rem;
-  height: 31rem;
+  height: 34rem;
   margin-top: 7em;
   border-radius: 25px;
   background: black;
   color: #21f321;
 
+}
+.text {
+  justify-content: center;
+  font-weight: 500;
+  font-size: 1em;
+  color: white;
+  padding: 1em;
+   text-indent: 10px;
+  letter-spacing: 2px;
 }

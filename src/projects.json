@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Dine-In or Dine-Out",
     "image": "/images/DineInDineOut.gif",
-    "description": "Project where the user can input a type of meal and their zip code and then receive results of recipes or restaurants that serve the meal near them.",
+    "description": "Project where the user can input a type of meal and their zip code and then receive results of recipes or restaurants that serve the meal near them. This group project utilized technologies such as  jQuery, Moment.js, AOS - Animate on Scroll library, UI Kit, and server-side APIs.",
     "gihub": "https://github.com/denzgrant/SnapesOnAPlane",
     "url": "https://denzgrant.github.io/SnapesOnAPlane/"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "name": "Weather Dashboard",
     "image": "/images/WeatherDashboard.gif",
-    "description": "Weather Dashboard uses API calls to get the current and 5-Day forecast for any location by typing in the citie's name.",
+    "description": "Weather Dashboard uses API calls to get the current and 5-Day forecast for any location by typing in the citie's name. Technologies uses: jQuery, Moment.js, and server-side APIs.",
     "gihub": "https://github.com/denzgrant/Weather-Dashboard",
     "url": "https://denzgrant.github.io/Weather-Dashboard/"
   },
@@ -19,15 +19,15 @@
     "id": 3,
     "name": "Work Day Scheduler",
     "image": "/images/WorkDayScheduler.gif",
-    "description": "Allows the user to saves tasks and highlight future work hours. Tasks are saved in local storage and moment.js is used to highlight the hour of the day block.",
+    "description": "Allows the user to saves tasks and highlight future work hours. Tasks are saved in local storage and moment.js is used to highlight the hour of the day block. This page utilizes jQuery and localStorage to store the user's daily tasks.",
     "gihub": "https://github.com/denzgrant/Work-Day-Scheduler",
     "url": "https://denzgrant.github.io/Work-Day-Scheduler/"
   },
   {
     "id": 4,
-    "name": "Eat-Da-Burger",
+    "name": "Eat-Da-Burger!",
     "image": "/images/eatdaburger.gif",
-    "description": "Eat-Da-Burger! is a restaurant app that lets users input the name of burgers they'd like to eat mad with Express and MySQL. This project follows the MVC design.",
+    "description": "Eat-Da-Burger! is a restaurant app that lets users input the name of burgers they'd like to eat. Each burger can be placed in category and also deleted This project follows the MVC design and used technologies such as MySQL, Node.js, and Express.",
     "gihub": "https://github.com/denzgrant/Eat-Da-Burger-",
     "url": "https://drg-eat-da-burger.herokuapp.com/"
   },
@@ -43,7 +43,7 @@
     "id": 6,
     "name": "Desert Pool Service",
     "image": "/images/desert_pools.gif",
-    "description": "MVC MERN Full-stack application that allows the user to use CRUD operations regarding maintaining customers and their work orders for a pool cleaning company.",
+    "description": "MVC MERN Full-stack application that allows the user to use CRUD operations regarding maintaining customers and their work orders for a pool cleaning company. This group project utilizes technologeies such as: Mongoose.js, MongoDB Atlas, Auth0, React.js, React Testing Library, Moment.js, and AOS. Test login: username: denzgrant@test.com. Password: “Testtest!” ",
     "gihub": "https://github.com/BigMacD-WebDesign/desert-pool-service",
     "url": "https://desert-pools-service-project3.herokuapp.com/"
   }

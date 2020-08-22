@@ -21,11 +21,11 @@ const Portfolio = () => {
                 <MDBCardImage className="img-fluid" src={process.env.PUBLIC_URL + proj.image} />
                 <MDBCardBody>
                   <MDBCardTitle>{proj.name}</MDBCardTitle>
-                  <MDBCardText>
+                  <MDBCardText className="text">
                     {proj.description}
                   </MDBCardText>
-                  <MDBBtn href={proj.gihub} target="_blank">Github</MDBBtn>
-                  <MDBBtn href={proj.url} target="_blank">Demo</MDBBtn>
+                  <MDBBtn color="elegant" href={proj.gihub} target="_blank"className="button">Github</MDBBtn>
+                  <MDBBtn color="elegant" href={proj.url} target="_blank"className="button">Demo</MDBBtn>
                 </MDBCardBody>
               </MDBCard>
             </MDBCol>

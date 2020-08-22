@@ -36,8 +36,11 @@ const AboutMe = () => {
                             <br></br>
                             <br></br>
                             I'm currently looking to join a team. Feel free to check out my <a href="https://docs.google.com/document/d/1nHbvtAf2ocPFz7yP8Sr8DLAQFcXk-KlLh-mxLlfFT8Q/edit?usp=sharing" rel="noopener noreferrer" target="_blank">Resume</a>
+                            <br></br>
+                            <br></br>
+                             <MDBIcon icon="pager" size="3x" style={{marginRight: 10 }} /> <p id="num">763 - 316 - 9670</p>
                         </p>
-                        <MDBBtn flat
+                        <MDBBtn 
                             color="indigo"
                             href="https://www.linkedin.com/in/denzell-grant-10175574/"
                             target="_blank"
