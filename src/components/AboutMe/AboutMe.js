@@ -20,16 +20,10 @@ const AboutMe = () => {
                     </MDBCol>
                     <MDBCol lg="7" xl="8">
                         <p className="about">
-                            Full-Stack Developer
-                            from the University of Arizona bootcamp. Highly
-                            motivated, creative, and enjoys completing goals. I have a
-                            background in Psychology and I am seeking to use my people
-                            skills to transition into web development.
-                            <br></br>
-                            <br></br>
-                            In my free time: I enjoy meditation, video games,
-                            traveling, experiencing nature, and staying physically
-                            active.
+                            Full Stack Web Developer Leveraging a background in psychology and client engagement. Recently earned my certificate in Full Stack Development from the University of Arizona. Proven experience effectively collaborating with diverse teams to  create user centric applications using version-control via Git. Excellent time management and recognized for the ability to deliver projects on time and within scope.  Complex problem solver with expertise in conflict resolution and change adaptability.
+
+                            Technologies & Languages: HTML, CSS, JavaScript, SQL, Bootstrap, Node, jQuery, and React.js.
+
                             <br></br>
                             <br></br>
                             Always Be learning.
@@ -38,9 +32,12 @@ const AboutMe = () => {
                             I'm currently looking to join a team. Feel free to check out my <a href="https://docs.google.com/document/d/1nHbvtAf2ocPFz7yP8Sr8DLAQFcXk-KlLh-mxLlfFT8Q/edit?usp=sharing" rel="noopener noreferrer" target="_blank">Resume</a>
                             <br></br>
                             <br></br>
-                             <MDBIcon icon="pager" size="3x" style={{marginRight: 10 }} /> <p id="num">763 - 316 - 9670</p>
+                            Contact me via email at: denzgrant@gmail.com
+                            or phone: 
+                            <br></br>
+                            <MDBIcon icon="pager" size="3x" style={{ marginRight: 10 }} /> <p id="num">763 - 316 - 9670</p>
                         </p>
-                        <MDBBtn 
+                        <MDBBtn
                             color="indigo"
                             href="https://www.linkedin.com/in/denzell-grant-10175574/"
                             target="_blank"
