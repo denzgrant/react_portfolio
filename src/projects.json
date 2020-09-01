@@ -1,6 +1,14 @@
 [
   {
     "id": 1,
+    "name": "Google Books Search",
+    "image": "/images/GoogleBooks.gif",
+    "description": "MERN stack application where the use can use an API search to save Google Books to a database. The saved books are saved within MongoDB Atlas and Mongoose.js is used as an ODM. ",
+    "gihub": "https://github.com/denzgrant/React-Google-Books",
+    "url": "https://react-google-books-drg.herokuapp.com/"
+  },
+  {
+    "id": 2,
     "name": "Desert Pool Service",
     "image": "/images/desert_pools.gif",
     "description": "MVC MERN Full-stack application that allows the user to use CRUD operations regarding maintaining customers and their work orders for a pool cleaning company. This group project utilizes technologeies such as: Mongoose.js, MongoDB Atlas, Auth0, React.js, React Testing Library, Moment.js, and AOS. Test login: username: denzgrant@test.com. Password: “Testtest!” ",
@@ -8,7 +16,7 @@
     "url": "https://desert-pools-service-project3.herokuapp.com/"
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "DasFlix",
     "image": "/images/dasFlix.gif",
     "description": "A full-stack application where the user can create watchlists consisting of cards representing movies/tv shows, these cards are rendered to the page from a third party API. Local username and password authentication is used to access the website. The user’s watchlist, password, and username is stored in a database. Feel free to use the test login, username: '1@1'. password: '1'",
@@ -16,7 +24,7 @@
     "url": "http://www.dasflix.com/"
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Eat-Da-Burger!",
     "image": "/images/eatdaburger.gif",
     "description": "Eat-Da-Burger! is a restaurant app that lets users input the name of burgers they'd like to eat. Each burger can be placed in category and also deleted This project follows the MVC design and used technologies such as MySQL, Node.js, and Express.",
@@ -24,7 +32,7 @@
     "url": "https://drg-eat-da-burger.herokuapp.com/"
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Dine-In or Dine-Out",
     "image": "/images/DineInDineOut.gif",
     "description": "Project where the user can input a type of meal and their zip code and then receive results of recipes or restaurants that serve the meal near them. This group project utilized technologies such as  jQuery, Moment.js, AOS - Animate on Scroll library, UI Kit, and server-side APIs.",
@@ -32,7 +40,7 @@
     "url": "https://denzgrant.github.io/SnapesOnAPlane/"
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Weather Dashboard",
     "image": "/images/WeatherDashboard.gif",
     "description": "Weather Dashboard uses API calls to get the current and 5-Day forecast for any location by typing in the citie's name. Technologies uses: jQuery, Moment.js, and server-side APIs.",
@@ -40,11 +48,19 @@
     "url": "https://denzgrant.github.io/Weather-Dashboard/"
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "Work Day Scheduler",
     "image": "/images/WorkDayScheduler.gif",
     "description": "Allows the user to saves tasks and highlight future work hours. Tasks are saved in local storage and moment.js is used to highlight the hour of the day block. This page utilizes jQuery and localStorage to store the user's daily tasks.",
     "gihub": "https://github.com/denzgrant/Work-Day-Scheduler",
     "url": "https://denzgrant.github.io/Work-Day-Scheduler/"
+  },
+  {
+    "id": 8,
+    "name": "Random Password Generator",
+    "image": "/images/ranpassword.gif",
+    "description": "User is able to create a random password by choosing the character length and if the user wants the password to have numbers, letters, and special characters. This projected was created with Vanilla ES6 JavaScript ",
+    "gihub": "https://github.com/denzgrant/Random-Password-Generator-",
+    "url": "https://angry-wing-e033e8.netlify.app/"
   }
 ]
